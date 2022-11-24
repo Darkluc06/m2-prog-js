@@ -2,7 +2,6 @@ class App
 {
     runApplication()
     {
-        console.log("hello world");
         let appNaam = ("string");
         let verison = 0.9;
         let versiedatum = ("22/11/2022");
