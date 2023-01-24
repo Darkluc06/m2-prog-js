@@ -13,35 +13,29 @@ class App
         console.log(appNaam, verison, versiedatum, auteur, copyright, distribiteur, darkmode)
         let g = canvas.getContext("2d");
         g.beginPath()
-        g.moveTo(300,100);
-        g.lineTo(700,200);
-        g.lineTo(600,400);
-        g.lineTo(200,300);
-        g.lineTo(300,100);
+        g.moveTo(37.5,12.5);
+        g.lineTo(87.5,25);
+        g.lineTo(75,50);
+        g.lineTo(25,37.5);
+        g.lineTo(37.5,12.5);
         g.fill();
-        g.moveTo(700,200);
-        g.lineTo(800,300);
-        g.lineTo(800,500);
-        g.lineTo(600,600);
-        g.lineTo(200,500);
-        g.lineTo(200,300);
-        g.moveTo(600,400);
-        g.lineTo(800,300);
-        g.moveTo(600,400);
-        g.lineTo(600,600);
-        g.moveTo(300,450);
-        g.lineTo(300,350);
-
-        g.lineTo(400,375);
-        g.lineTo(400,475);
-
-        g.closePath();
+        g.moveTo(87.5,25);
+        g.lineTo(100,37.5);
+        g.lineTo(100,62.5);
+        g.lineTo(75,75);
+        g.lineTo(25,62.5);
+        g.lineTo(25,37.5);
+        g.moveTo(75,50);
+        g.lineTo(100,37.5);
+        g.moveTo(75,50);
+        g.lineTo(75,75);
+        g.moveTo(37.5,56.25);
+        g.lineTo(37.5,43.75);
+        g.lineTo(50,46.875);
+        g.lineTo(50,59.375);
+        g.lineTo(37.5,56.25);
         g.stroke();
     }
 }
 let app = new App();
 app.runApplication();
-
-
-
-
